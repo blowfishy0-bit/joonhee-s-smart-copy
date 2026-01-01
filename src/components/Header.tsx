@@ -44,21 +44,33 @@ const Header = () => {
         {/* Center - SB Logo */}
         <Link to="/" className="absolute left-1/2 -translate-x-1/2 top-5">
           <svg
-            width="40"
-            height="40"
-            viewBox="0 0 40 40"
+            width="36"
+            height="44"
+            viewBox="0 0 36 44"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className="transition-transform hover:scale-110 duration-300"
           >
-            {/* S letter - stylized */}
+            {/* S - top left */}
             <path
-              d="M4 12C4 8 7 5 12 5C17 5 19 8 19 11C19 14 17 16 14 17L19 17C19 17 20 19 20 21C20 25 17 28 11 28C5 28 3 25 3 22H7C7 24 9 25 11 25C14 25 16 23 16 21C16 19 14 18 11 18H8V15H12C14 15 15 14 15 12C15 10 14 8 12 8C9 8 8 10 8 12H4Z"
+              d="M0 8C0 3.58 3.58 0 8 0H16V8C16 12.42 12.42 16 8 16H0V8Z"
               fill="currentColor"
             />
-            {/* B letter - stylized */}
             <path
-              d="M22 5H30C34 5 37 7 37 11C37 13 36 15 34 16C36 17 38 19 38 22C38 26 35 28 30 28H22V5ZM26 15H29C31 15 33 14 33 12C33 10 31 8 29 8H26V15ZM26 25H30C32 25 34 24 34 21C34 19 32 18 30 18H26V25Z"
+              d="M0 20H8C12.42 20 16 23.58 16 28V36H8C3.58 36 0 32.42 0 28V20Z"
+              fill="currentColor"
+            />
+            {/* B - bottom right */}
+            <path
+              d="M20 8C20 3.58 23.58 0 28 0H36V16H28C23.58 16 20 12.42 20 8Z"
+              fill="currentColor"
+            />
+            <path
+              d="M20 20H28C32.42 20 36 23.58 36 28C36 32.42 32.42 36 28 36H20V20Z"
+              fill="currentColor"
+            />
+            <path
+              d="M20 36V44H28C32.42 44 36 40.42 36 36H20Z"
               fill="currentColor"
             />
           </svg>
