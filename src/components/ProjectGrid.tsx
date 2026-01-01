@@ -84,7 +84,7 @@ const ProjectGrid = () => {
               subtitle={project.subtitle}
               image={project.image}
               link={project.link}
-              size={index === 0 ? "medium" : "large"}
+              size="large"
               showTitle={true}
             />
           </div>
